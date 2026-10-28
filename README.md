@@ -46,6 +46,7 @@
 ├── docs/           # deep dives
 ├── plans/          # open plans (implemented/ = archive)
 ├── tests/
+├── .gitignore
 ├── changelog.txt
 └── backlog.txt
 ```
@@ -70,4 +71,6 @@ Logs: `{path}`. Known issues: `backlog.txt`. Reports include: errors, repro step
 
 ## License / History
 
-{license} · `changelog.txt`
+{license}
+
+Change history: `changelog.txt` (newest first). Roadmap, ideas, known issues: `backlog.txt`. Both are maintained by the playbook workflow, not by hand.

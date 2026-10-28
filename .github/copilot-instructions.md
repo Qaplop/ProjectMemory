@@ -175,6 +175,13 @@ Update `changelog.txt` for every code change, unasked.
 - Fixed: {symptom}. {cause/fix}. File: {path}. Build 123. {N} tests pass.
 ```
 
+## Backlog
+
+Maintain `backlog.txt` (root) unasked, like the changelog.
+- Add: ideas, known issues, and deferred fixes you find but don't do now.
+- Remove: an item the moment it's done (record it in the changelog).
+- One line per item, tagged `[idea]`, `[bug]` or `[next-touch]` (= do when that code is next edited anyway).
+
 ## Docs index (one line each: `docs/FILE.md: scope`)
 
 - `docs/ARCHITECTURE.md`: modules, data flows, decisions

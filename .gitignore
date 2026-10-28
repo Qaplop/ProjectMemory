@@ -1,0 +1,55 @@
+# Example .gitignore — technology-neutral base. Add language/tool-specific entries per project.
+
+# Secrets & local config (playbook Rule 12) — commit only *.example files with placeholders
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.secret
+secrets/
+local.config*
+!*.example
+
+# Runtime data, logs, scratch
+logs/
+*.log
+data/
+tmp/
+temp/
+scratch/
+
+# Build & dependency output
+build/
+dist/
+out/
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+*.o
+*.obj
+*.exe
+*.hex
+*.elf
+*.bin
+
+# Test & coverage output
+coverage/
+htmlcov/
+.cache/
+
+# Editor & OS
+.idea/
+.vscode/*
+!.vscode/settings.json
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Assistant tool-local state (keep shared playbook files tracked)
+.claude/settings.local.json
+.claudeignore

@@ -1,0 +1,5 @@
+CHANGELOG — newest entry first. Format: YYYY-MM-DD (N). See .github/copilot-instructions.md § Changelog.
+=====================================================================================================
+
+2026-01-01 (1)
+- Added: {what changed and why}. File: {path}. Build 1. {N} tests pass.

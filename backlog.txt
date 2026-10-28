@@ -1,0 +1,6 @@
+BACKLOG — open ideas, known issues, deferred fixes. Remove an item when done. See .github/copilot-instructions.md § Backlog.
+=====================================================================================================
+
+- [idea] {short description} — {why it matters}
+- [bug] {short description} — {file/function}
+- [next-touch] {deferred fix} — do it next time {file/function} is edited anyway
