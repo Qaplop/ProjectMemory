@@ -1,6 +1,6 @@
 # Coding Playbook — {PROJECT_NAME}
 
-Short, high-signal, technology-neutral. `{BRACES}` = fill per project; delete rules that don't apply. Detail → `docs/`.
+Short, high-signal. `{BRACES}` = fill per project; delete rules that don't apply. Detail → `docs/`.
 
 ## Cardinal rules
 
@@ -14,13 +14,13 @@ Shape: DO / DON'T / WHY.
 ### 2) Search before creating
 - DO: search for an existing implementation first; extend a close one.
 - DON'T: near-duplicates.
-- WHY: they drift apart.
+- WHY: they drift apart. Easier code maintenance and fewer bugs.
 
 ### 3) Production safety
 - DO: confirm the environment (dev/test/prod/target) before any file, data, network, or device operation.
 - DO: get explicit user confirmation before touching any production resource — **every access, never standing**, and regardless of how "safe" the method is.
 - DON'T: hardcode machine-specific paths, hosts, addresses.
-- WHY: production mistakes are hard to undo.
+- WHY: production mistakes are hard to undo and compromise production integrity.
 
 ### 4) Prefer copies of live resources
 - DO: use a copy/export/snapshot instead of a live shared resource.
