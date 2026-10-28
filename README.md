@@ -1,5 +1,9 @@
 # {PROJECT_NAME}
 
+> **About this repo** (delete this block in your project)
+> Technology-neutral boilerplate of rules, workflows and pitfalls for AI-assisted coding projects: a playbook, a pitfalls cookbook and a README template.
+> **New project:** copy `CLAUDE.md`, `README.md`, `.github/` and `docs/` into it → replace every `{PLACEHOLDER}` → delete rules that don't apply → add project rules in the same DO / DON'T / WHY shape.
+
 {One paragraph: what it does, for whom, main value.}
 
 ## Requirements
