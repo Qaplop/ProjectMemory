@@ -43,7 +43,6 @@ htmlcov/
 # Editor & OS
 .idea/
 .vscode/*
-!.vscode/settings.json
 *.swp
 *~
 .DS_Store
