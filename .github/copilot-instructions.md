@@ -62,7 +62,7 @@ Shape: DO / DON'T / WHY.
 - WHY: cleanup on a transient gap destroys valid data.
 
 ### 10) Docs are part of the change
-- DO: update affected docs/help/README/privacy statements in the same change; add a doc for significant features.
+- DO: update affected docs/help/README/privacy/agent memory statements in the same change; add a doc for significant features.
 - DON'T: leave references to moved/renamed things.
 - DO: reference docs as plain `docs/FILE.md § Section`, not markdown links.
 - WHY: a stale doc misleads worse than none.
